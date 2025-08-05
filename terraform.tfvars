@@ -1,0 +1,11 @@
+image_debian           = "debian-cloud/debian-11"
+gcp_credentials        = "./.key/terraform-user.json"
+gcp_region             = "europe-west3-a"
+gcp_project_id         = "test-projet-375814"
+gcp_type               = "e2-micro"
+instance1_ip_zabbix    = "PUBLIC_IP_ZABBIX"
+instance2_ip_wordpress = "PUBLIC_IP_WORDPRESS"
+instance3_ip_drupal    = "PUBLIC_IP_DRUPAL"
+instance4_ip_bdd       = "PUBLIC_IP_DB"
+source_ip_adress       = "YOUR_PUBLIC_IP_GCP"
+
