@@ -19,7 +19,7 @@ resource "google_compute_instance" "instance-bdd" {
   }
 
   metadata = {
-    ssh-keys = "terraform-user:${file("./.key/id_rsa.pub")}"
+    ssh-keys = "terraform-user:${file("./chemin/vers/votre/cle_public.pub")}"
   }
 
   provisioner "remote-exec" {
@@ -32,7 +32,7 @@ resource "google_compute_instance" "instance-bdd" {
       type        = "ssh"
       user        = "terraform-user"
       host        = var.instance4_ip_bdd
-      private_key = file("./.key/id_rsa")
+      private_key = file("./chemin/vers/votre/cle_prive")
       timeout     = "1m"
     }
   }
