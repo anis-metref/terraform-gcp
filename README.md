@@ -16,7 +16,7 @@ Ce dépôt contient la configuration Terraform pour déployer sur GCP :
 ## Utilisation
 
 
-![terraform](./capture/Terrafrom.png)
+![terraform](./capture/Terraform.png)
 
 
 ```bash
