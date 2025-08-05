@@ -13,11 +13,12 @@ Ce dépôt contient la configuration Terraform pour déployer sur GCP :
 - Un projet GCP   
 - Une clé de service JSON stockée dans `./.key/terraform-user.json`  
 
-## Utilisation
-
 
 ![terraform](./capture/Terraform.png)
 
+
+
+## Utilisation
 
 ```bash
 terraform init
